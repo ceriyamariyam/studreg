@@ -1,0 +1,64 @@
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#00aabb"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="first no"/>
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/a1"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="second no"/>
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/a2"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="third no"/>
+        <EditText
+            android:inputType=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/a3"/>
+        <Button
+            android:background="@drawable/regstyle"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:id="@+id/add1"/>
+
+        <Button
+            android:background="@drawable/regstyle"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:id="@+id/bk1"/>
+        <EditText
+            android:id="@+id/re"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+

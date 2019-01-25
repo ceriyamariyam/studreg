@@ -6,4 +6,14 @@
     <color name="bg1">#aaa173dc</color>
     <color name="lgb">#8fa6ea</color>
     <color name="reg">#ec9cb8</color>
+    <color name="startcolor">#348F50</color>
+    <color name="endcolor">#56B4D3</color>
+    <color name="bgs">#2BC0E4</color>
+    <color name="bge">#EAECC6</color>
+    <color name="rgs">#00467F</color>
+    <color name="rge">#A5CC82</color>
+    <color name="ee">#71B280</color>
+    <color name="ss">#FFC837</color>
+    <color name="rr">#ED4264</color>
+
 </resources>

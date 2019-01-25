@@ -1,49 +1,26 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="@drawable/bgstyling"
+    android:background="#00aabb"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView
-        android:src="@drawable/logo"
-        android:layout_margin="15dp"
-        android:layout_gravity="center"
-        android:background="@drawable/circleshape"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
     <TextView
-        android:textColor="#ec2950"
-        android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sid id"
-        android:textSize="28dp"/>
-    <EditText
-        android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/sid"/>
-    <TextView
-        android:textColor="#ec2950"
-        android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:textSize="28dp"/>
-    <EditText
-        android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/pswd"
-        android:inputType="textPassword"/>
-    <Button
         android:textColor="#ffffff"
-        android:textSize="20dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/buttonstylings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ln"
-        android:text="login"/>
+        android:text="first no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sn1"/>
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sn2"/>
     <Button
         android:background="@drawable/regstyle"
         android:textColor="#ffffff"
@@ -51,7 +28,23 @@
         android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/reg"
-        android:text="register"/>
+        android:text="sub"
+        android:id="@+id/sub"/>
+    <Button
+        android:background="@drawable/regstyle"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/bk2"/>
+    <EditText
+        android:editable="false"
+        android:visibility="gone"
+        android:id="@+id/re2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
