@@ -15,5 +15,7 @@
     <color name="ee">#71B280</color>
     <color name="ss">#FFC837</color>
     <color name="rr">#ED4264</color>
+    <color name="abg"> #3494E6</color>
+    <color name="bbg">#EC6EAD</color>
 
 </resources>

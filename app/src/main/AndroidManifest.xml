@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.admin.studentreg">
 
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +22,8 @@
         <activity android:name=".subActivity" />
         <activity android:name=".divActivity" />
         <activity android:name=".mulActivity" />
-        <activity android:name=".viewActivity"></activity>
+        <activity android:name=".viewActivity" />
+        <activity android:name=".userlist"></activity>
     </application>
 
 </manifest>

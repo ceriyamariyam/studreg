@@ -22,6 +22,7 @@ public class subActivity extends AppCompatActivity {
         e3=(EditText)findViewById(R.id.re2) ;
         b1=(Button)findViewById(R.id.sub);
         b2=(Button)findViewById(R.id.bk2);
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
